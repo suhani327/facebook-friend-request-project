@@ -1,0 +1,55 @@
+
+#card{
+    height: 400px;
+    width: 300px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    border: none;
+    padding: 30px;
+    
+}
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#card img{
+    height:40%;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px dotted white;
+    object-fit: cover;
+    object-position: center;
+
+}
+button{
+    font-size: 20px;
+    font-weight:bold;
+    color: blue;
+    background-color: yellow;
+    /* margin: 10px; */
+    border-radius: 7px;
+    height: 50px;
+    width: 200px;
+}
+#btn_container{
+    display: flex;
+justify-content: center;
+}
+h3{
+    font-size: 30px;
+    text-align: center;
+    color: red;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(168, 47, 255);
+    text-decoration: 2px dotted black underline;
+}
+/* #remove{
+    color: black;
+    background-color: white; */
+/* } */
